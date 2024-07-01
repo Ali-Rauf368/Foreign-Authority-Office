@@ -1,0 +1,131 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.header {
+background-color:  rgba(0, 0, 0, 0.5);;
+    color: #fff;
+    padding: 10px;
+    height: 20px;
+}
+
+.header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  rgba(0, 0, 0, 0.5);;
+}
+
+.header .navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+.options a {
+    text-decoration: none;
+    color: white;
+}
+.content {
+    padding: 20px;
+    background-color:  rgba(0, 0, 0, 0.5);
+ 
+}
+
+
+.logo {
+    max-height: 60px; 
+    margin-right: 20px; 
+}
+.logo:hover{
+    transform: scale(1.4); 
+}
+.options {
+    display: flex;
+    gap: 10px;
+}
+
+/*Carousal */
+.carousel {
+    position: relative;
+    max-width: 100%;
+    margin: 20px auto;
+    overflow: hidden;
+    height: 500px;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-images img {
+    width: 100%;
+    min-width: 100%;
+    max-height: 50%;
+}
+
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
+.current-news {
+    background-color:  rgba(0, 0, 0, 0.5);;
+    padding: 10px;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.section.links a {
+    text-decoration: none;
+    color: white;
+}
+.footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer .footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer .footer-section:last-child {
+    margin-right: 0;
+}
+
+.footer h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
